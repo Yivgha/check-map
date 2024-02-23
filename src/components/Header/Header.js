@@ -10,13 +10,14 @@ const Header = () => {
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
-          <Link href="/">
-            Next.js Leaflet Starter
-          </Link>
+          <Link href='/'>This is header</Link>
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="https://github.com/colbyfayock/next-leaflet-starter" rel="noreferrer">
+            <a
+              href='https://github.com/colbyfayock/next-leaflet-starter'
+              rel='noreferrer'
+            >
               <FaGithub />
             </a>
           </li>
